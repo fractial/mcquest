@@ -1,0 +1,1 @@
+execute as @s at @s run tellraw @a [{"text":"\uE000 Accept?"}]

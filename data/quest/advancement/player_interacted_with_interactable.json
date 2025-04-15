@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_interacted_with_interactable": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "#quest:interactable"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "quest:interaction/effect"
+	}
+}
