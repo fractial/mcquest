@@ -1,0 +1,1 @@
+$function quest:quest/check_quest_2 with storage quest:quest Quest[$(id)].item

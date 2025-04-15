@@ -1,1 +1,1 @@
-execute as @s at @s run tellraw @a [{"text":"\uE000 Accept?"}]
+$execute as @s at @s run tellraw @a [{"text":"\uE000 "},{"click_event":{"action":"run_command","command":"function quest:quest/accept_quest_0 $(Quest)"},"text":"\u2192 Click here to accept quest!\n","bold":true,"color":"green"}]
