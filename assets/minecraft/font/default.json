@@ -4,7 +4,7 @@
 			"type": "bitmap",
 			"file": "quest:font/space.png",
 			"height": 51,
-			"ascent": 7,
+			"ascent": 6,
 			"chars": [
 				"\uE000"
 			]
@@ -13,7 +13,7 @@
 			"type": "bitmap",
 			"file": "quest:font/villager.png",
 			"height": 51,
-			"ascent": 7,
+			"ascent": 6,
 			"chars": [
 				"\uE001"
 			]
@@ -22,7 +22,7 @@
 			"type": "bitmap",
 			"file": "quest:font/text.png",
 			"height": 13,
-			"ascent": 7,
+			"ascent": 10,
 			"chars": [
 				"\uE100"
 			]

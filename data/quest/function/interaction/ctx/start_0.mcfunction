@@ -10,4 +10,4 @@ data modify entity @s equipment.chest.components.minecraft:custom_data.Quest.pag
 
 
 execute if entity @s[tag=!quest_is_active] run function quest:interaction/ctx/start_1
-execute if entity @s[tag=quest_is_active] run function quest:interaction/ctx/tellraw/tellraw_active with entity @s equipment.chest.components.minecraft:custom_data
+execute if entity @s[tag=quest_is_active] run function quest:interaction/ctx/tellraw/tellraw_active with entity @s equipment.chest.components.minecraft:custom_data.Quest

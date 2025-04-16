@@ -1,1 +1,1 @@
-$execute as @s at @s run tellraw @a [{"text":"\uE000 "},{"click_event":{"action":"run_command","command":"function quest:interaction/ctx/page_up $(Quest)"},"text":"Next \u2192\n","bold":true,"color":"gold"}]
+$execute as @s at @s run tellraw @a [{"text":"\uE000 "},{"click_event":{"action":"run_command","command":"trigger interaction_next set $(uuid)"},"text":"Next \u2192\n","bold":true,"color":"gold"}]

@@ -1,0 +1,1 @@
+$summon villager ~ ~ ~ {NoAI:1b,Tags:["tick"],equipment:{chest:{id:"minecraft:paper",count:1,components:{"minecraft:custom_data":{Quest:{uuid:$(uuid),id:$(id),page:0}}}}}}
