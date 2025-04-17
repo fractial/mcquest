@@ -1,6 +1,6 @@
 tellraw @a [{"bold":true,"color":"gold","text":"Quests "},{"bold":false,"color":"white","text":"loaded!"}]
 
-# gamerule sendCommandFeedback false
+gamerule sendCommandFeedback false
 
 scoreboard objectives add interaction_reach dummy
 scoreboard objectives add interaction_raycast_hit dummy

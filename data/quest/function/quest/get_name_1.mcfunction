@@ -1,0 +1,1 @@
+$data modify storage quest:temp TempName set from storage quest:name Name[$(name)]

@@ -1,1 +1,1 @@
-execute as @s at @s run tellraw @a [{"text":"\n"}]
+execute as @s at @s run tellraw @p [{"text":"\n"}]

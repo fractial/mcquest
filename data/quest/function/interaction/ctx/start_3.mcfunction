@@ -10,7 +10,7 @@ execute if score @s quest_progress > @s max_quest_progress run scoreboard player
 scoreboard players operation @s quest_progress_display = @s quest_progress
 scoreboard players add @s quest_progress_display 1
 
-$function quest:interaction/ctx/tellraw/tellraw_top with storage quest:quest Quest[$(id)]
+function quest:interaction/ctx/tellraw/tellraw_top with entity @s equipment.chest.components.minecraft:custom_data.Quest
 $function quest:interaction/ctx/tellraw/tellraw_middle with storage quest:quest Quest[$(id)].conversation[$(page)]
 
 $execute store result score @s quest_accept run data get storage quest:quest Quest[$(id)].accept

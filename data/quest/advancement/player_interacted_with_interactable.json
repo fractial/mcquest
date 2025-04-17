@@ -4,7 +4,12 @@
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"type": "#quest:interactable"
+					"type": "#quest:interactable",
+					"equipment": {
+						"chest": {
+							"items": "minecraft:paper"
+						}
+					}
 				}
 			}
 		}
