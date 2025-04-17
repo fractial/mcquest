@@ -3,8 +3,8 @@
 		{
 			"type": "bitmap",
 			"file": "quest:font/space.png",
-			"height": 51,
-			"ascent": 6,
+			"height": 48,
+			"ascent": 5,
 			"chars": [
 				"\uE000"
 			]
@@ -12,8 +12,8 @@
 		{
 			"type": "bitmap",
 			"file": "quest:font/villager.png",
-			"height": 51,
-			"ascent": 6,
+			"height": 48,
+			"ascent": 5,
 			"chars": [
 				"\uE001"
 			]
