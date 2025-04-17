@@ -17,6 +17,6 @@ $execute store result score @s quest_accept run data get storage quest:quest Que
 $execute store result score @s quest_type run data get storage quest:quest Quest[$(id)].type
 
 
-execute as @s unless score @s quest_accept = @s quest_progress run function quest:interaction/ctx/tellraw/tellraw_next with entity @s equipment.chest.components.minecraft:custom_data.Quest
+execute as @s unless score @s quest_accept = @s quest_progress run function quest:ui/button/style/next_button with entity @s equipment.chest.components.minecraft:custom_data.Quest
 execute as @s if score @s quest_accept = @s quest_progress if score @s quest_type matches 0 run function quest:interaction/ctx/tellraw/tellraw_bottom
-execute as @s if score @s quest_accept = @s quest_progress if score @s quest_type matches 1.. run function quest:interaction/ctx/tellraw/tellraw_accept with entity @s equipment.chest.components.minecraft:custom_data.Quest
+execute as @s if score @s quest_accept = @s quest_progress if score @s quest_type matches 1.. run function quest:ui/button/style/accept_button with entity @s equipment.chest.components.minecraft:custom_data.Quest
