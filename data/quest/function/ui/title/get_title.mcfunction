@@ -1,0 +1,2 @@
+# execute as @s run 
+$tellraw @p [{"text":"\uE000 "},{"text":"\uE100 $(name) ","bold":true},{"text":"(","color":"dark_gray"},{"score":{"name":"@s","objective":"quest_progress_display"},"color":"dark_gray"},{"text":"/","color":"dark_gray"},{"score":{"name":"@s","objective":"max_quest_progress_display"},"color":"dark_gray"},{"text":")","color":"dark_gray"}]

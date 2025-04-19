@@ -1,0 +1,1 @@
+$tellraw @p [{"text":"\uE000 "},$(content)]

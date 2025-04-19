@@ -10,13 +10,14 @@ execute if score @s quest_progress > @s max_quest_progress run scoreboard player
 scoreboard players operation @s quest_progress_display = @s quest_progress
 scoreboard players add @s quest_progress_display 1
 
-function quest:interaction/ctx/tellraw/tellraw_top with entity @s equipment.chest.components.minecraft:custom_data.Quest
-$function quest:interaction/ctx/tellraw/tellraw_middle with storage quest:quest Quest[$(id)].conversation[$(page)]
+function quest:ui/image/get_image with entity @s VillagerData
+function quest:ui/title/get_title with entity @s equipment.chest.components.minecraft:custom_data.Quest
+$function quest:ui/content/get_content with storage quest:quest Quest[$(id)].conversation[$(page)]
 
 $execute store result score @s quest_accept run data get storage quest:quest Quest[$(id)].accept
 $execute store result score @s quest_type run data get storage quest:quest Quest[$(id)].type
 
 
-execute as @s unless score @s quest_accept = @s quest_progress run function quest:ui/button/style/next_button with entity @s equipment.chest.components.minecraft:custom_data.Quest
-execute as @s if score @s quest_accept = @s quest_progress if score @s quest_type matches 0 run function quest:interaction/ctx/tellraw/tellraw_bottom
-execute as @s if score @s quest_accept = @s quest_progress if score @s quest_type matches 1.. run function quest:ui/button/style/accept_button with entity @s equipment.chest.components.minecraft:custom_data.Quest
+execute unless score @s quest_accept = @s quest_progress run return run function quest:ui/button/style/next_button with entity @s equipment.chest.components.minecraft:custom_data.Quest
+execute if score @s quest_type matches 0 run return run function quest:ui/space/get_space
+function quest:ui/button/style/accept_button with entity @s equipment.chest.components.minecraft:custom_data.Quest

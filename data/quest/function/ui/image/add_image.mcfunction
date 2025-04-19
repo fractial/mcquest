@@ -1,0 +1,1 @@
+data modify storage quest:ui/image Image."minecraft:plains"."minecraft:none" set value {text:"\uE001"}

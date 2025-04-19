@@ -1,1 +1,0 @@
-$execute as @s at @s run tellraw @p [{"text":"\uE000 "},{"click_event":{"action":"run_command","command":"trigger interaction_next set $(uuid)"},"text":"Next \u2192\n","bold":true,"color":"gold"}]

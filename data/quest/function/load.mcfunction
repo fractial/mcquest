@@ -22,7 +22,7 @@ scoreboard objectives add max_quest_progress dummy
 scoreboard objectives add quest_progress_display dummy
 scoreboard objectives add max_quest_progress_display dummy
 
-function quest:ui/button/add_button
+function quest:ui/add_ui
 function quest:quest/add_quest
 
 schedule function quest:20tick 20t

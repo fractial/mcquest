@@ -1,1 +1,0 @@
-$execute as @s at @s run tellraw @p [{"text":"\uE000 "},$(content)]
