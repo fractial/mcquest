@@ -1,0 +1,2 @@
+execute store result storage quest:random Random.UUID int 1 run random value 0..2147483646
+$execute store result storage quest:random Random.quest_probability int 1 run random value 0..$(quest_probability)

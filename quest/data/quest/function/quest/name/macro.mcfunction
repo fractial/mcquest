@@ -1,0 +1,1 @@
+$data modify entity @s equipment.chest.components.minecraft:custom_data.QuestData.name set from storage quest:name Name.$(id).values[$(index)]

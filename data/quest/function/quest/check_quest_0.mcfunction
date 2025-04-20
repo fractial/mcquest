@@ -1,1 +1,0 @@
-function quest:quest/check_quest_1 with entity @s equipment.chest.components.minecraft:custom_data.Quest

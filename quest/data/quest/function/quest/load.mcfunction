@@ -1,0 +1,1 @@
+execute as @e[type=#quest:interactable,tag=!has_tick,sort=nearest,limit=10] run function quest:quest/get_quest_probability

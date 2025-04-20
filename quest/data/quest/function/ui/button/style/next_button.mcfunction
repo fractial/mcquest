@@ -1,0 +1,1 @@
+$function quest:ui/button/get_button {id:0,UUID:$(UUID)}

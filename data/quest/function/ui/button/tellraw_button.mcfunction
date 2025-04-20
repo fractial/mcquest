@@ -1,1 +1,0 @@
-$tellraw @p [{"text":"\uE000 "},{"bold":true,"click_event":{"action":"run_command","command":"trigger $(click_event) set $(uuid)"},"color":"$(color)","hover_event":{"action":"show_text","value":[{"text":"Click to $(hover_event)","color":"$(color)"}]},"text":"$(text)"},{"text":"\n"}]

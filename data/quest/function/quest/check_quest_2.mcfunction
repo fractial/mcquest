@@ -1,2 +1,0 @@
-$execute as @s at @s if entity @e[type=item,nbt={Item:{id:"$(id)"}},distance=..1] run function quest:quest/complete_quest
-$execute as @s at @s if entity @e[type=item,nbt={Item:{id:"$(id)"}},distance=..1] run kill @e[type=item,nbt={Item:{id:"$(id)"}},distance=..1]

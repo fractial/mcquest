@@ -1,0 +1,1 @@
+function quest:random/macro with storage quest:config Config

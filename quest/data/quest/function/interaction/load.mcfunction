@@ -1,0 +1,1 @@
+function quest:interaction/chain/0

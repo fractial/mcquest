@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "The vanilla quest system you've been waiting for!\nFractial 2025",
+		"pack_format": 71,
+		"supported_formats": {
+			"min_inclusive": 55,
+			"max_inclusive": 71
+		}
+	}
+}

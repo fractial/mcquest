@@ -1,0 +1,1 @@
+$execute as @e[type=#quest:interactable,predicate=quest:has_quest,nbt={equipment:{chest:{components:{"minecraft:custom_data":{QuestData:{UUID:$(UUID)}}}}}},sort=nearest,limit=1] run function quest:interaction/button/next/chain/1
